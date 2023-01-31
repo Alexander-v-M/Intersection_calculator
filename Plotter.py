@@ -35,7 +35,7 @@ class Plotter:
         # Settings for the navigation toolbar
         toolbar = NavigationToolbar2Tk(chart, root, pack_toolbar=False)
         toolbar.config(background="#3b3b3b")
-        toolbar.message_label.config(background="#3b3b3b", fg='black')
+        # toolbar.message_label.config(background="#3b3b3b", fg='black')
         toolbar.winfo_children()[9].config(background="#3b3b3b")
         toolbar.winfo_children()[10].config(background="#3b3b3b")
 
@@ -67,7 +67,7 @@ class Plotter:
         # Settings for the navigation toolbar
         toolbar = NavigationToolbar2Tk(chart, root, pack_toolbar=False)
         toolbar.config(background="#f0ecec")
-        toolbar.message_label.config(background="#f0ecec", fg='black')
+        # toolbar.message_label.config(background="#f0ecec", fg='black')
         toolbar.winfo_children()[9].config(background="#f0ecec")
         toolbar.winfo_children()[10].config(background="#f0ecec")
 
