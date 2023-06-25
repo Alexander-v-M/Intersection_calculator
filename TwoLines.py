@@ -29,7 +29,6 @@ class TwoLines:
         except TypeError:
             return "Calculation not possible"
 
-
         if len(result) == 0:
             return 'No intersect'
         else:
@@ -58,5 +57,3 @@ class TwoLines:
             list_get_2 = []
 
         return list_get_1, list_get_2
-
-
